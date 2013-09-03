@@ -7,8 +7,6 @@ Package.on_use(function (api) {
     connect: '2.8.8'
   });
 
-  api.use('webapp', ['server']);
-
   api.add_files('angular.js', 'client');
   api.add_files('client.js', 'client');
  
